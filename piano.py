@@ -5,7 +5,7 @@ import numpy as np
 
 ALL = [int(round(440 * (2 ** (1 / 12)) ** (i - 49), 0)) for i in range(1, 89)]      # 所有键盘频率
 num_C4 = 39     # C4位置开头
-num_F4 = 48     # F4位置
+num_A4 = 48     # F4位置
 natural_major = [-1, 0, 2, 4, 5, 7, 9, 11, 12]      # 自然大调间隔
 
 
